@@ -55,7 +55,7 @@
             transition: background-color 0.3s ease, transform 0.2s ease;
         }
         button:hover {
-            background-color: #0;
+            background-color: #000;
             transform: scale(1.05);
         }
         button:active {
@@ -74,13 +74,13 @@
         <input type="url" id="inputs-1">
 
         <button onclick="goto_url()">Go to URL</button>
-        <button onclick="goto_prox('rammerhead')">Proxy (Rammerhead)</button>
+        <button onclick="goto_prox('nebula')">Nebula Proxy</button>
         <button onclick="goto_gle()">Google</button>
 
         <h1>Others:</h1>
         <p>original Redirect Tool by Kahaan.</p>
-        <button onclick="goto_prox('stellar :skull:')">Proxy (Interstellar)</button>
-        <button onclick="goto_prox('flowos')">Proxy (Flowos)</button>
+        <button onclick="goto_prox('nowgg')">now.gg</button>
+        <button onclick="goto_prox('credits')">Credits</button>
     </div>
 
     <script>
@@ -90,17 +90,17 @@
         }
 
         function goto_prox(s) {
-            if (s === "rammerhead") {
-                const element = "https://r1.shieldbotlist.xyz";
+            if (s === "nebula") {
+                const element = "https://interactive.kydana.art/";
                 window.location.href = element;
             } else if (s === "yourmom") {
                 const element = "https://google.com/search?q=Disable+Bc+Doesnt+Work";
                 window.location.href = element;
-            } else if  (s === "stellar :skull:") {
-                const element = "https://flowos.shieldbotlist.xyz";
+            } else if  (s === "nowgg") {
+                const element = "https://nowgg.wwrr.repl.co/";
                 window.location.href = element;
-            } else if (s === "flowos") {
-                document.getElementById("poop").innerHTML = "flowos isnt working right now but im making a fix soon so funny right haha bruh"
+            } else if (s === "credits") {
+                document.getElementById("poop").innerHTML = "Original Redirect Tool by Kahaan https://woosh9129.github.io/redirectool"
             }
         }
 
