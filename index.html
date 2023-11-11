@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirect Tool 2023</title>
+    <style>
+        body {
+            background: url('https://www.transparenttextures.com/patterns/diagmonds-light.png'); /* Subtle star pattern background */
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            line-height: 1.5;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+        h1 {
+            color: #333;
+            font-size: 36px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        h2 {
+            color: #333;
+            font-size: 24px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+        input[type="url"] {
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+            width: 100%;
+            max-width: 500px;
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+        button {
+            background-color: #007BFF;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 10px;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+        button:hover {
+            background-color: #0056b3;
+            transform: scale(1.05);
+        }
+        button:active {
+            transform: scale(0.95);
+        }
+    </style>
+</head>
+<body>
+    <h1 id ="poop"> </h1>
+    <div class="container">
+        <h1>Redirect Tool 2023 by Kahaan</h1>
+
+        <h2>Announcement</h2>
+        <p>i tried fixing interstellar bro</p>
+
+        <input type="url" id="inputs-1">
+
+        <button onclick="goto_url()">Go to URL</button>
+        <button onclick="goto_prox('rammerhead')">Proxy (Rammerhead)</button>
+        <button onclick="goto_gle()">Google</button>
+
+        <h1>Before you continue:</h1>
+        <p>I spend $12/month for the domain. I spend $5/month for this proxy. Please check it out; it's pretty cool, in my opinion.</p>
+        <button onclick="goto_prox('stellar :skull:')">Proxy (Interstellar)</button>
+        <button onclick="goto_prox('flowos')">Proxy (Flowos)</button>
+    </div>
+
+    <script>
+        function goto_url() {
+            const element = document.getElementById('inputs-1');
+            window.location.href = element.value;
+        }
+
+        function goto_prox(s) {
+            if (s === "rammerhead") {
+                const element = "https://r1.shieldbotlist.xyz";
+                window.location.href = element;
+            } else if (s === "yourmom") {
+                const element = "https://google.com/search?q=Disable+Bc+Doesnt+Work";
+                window.location.href = element;
+            } else if  (s === "stellar :skull:") {
+                const element = "https://flowos.shieldbotlist.xyz";
+                window.location.href = element;
+            } else if (s === "flowos") {
+                document.getElementById("poop").innerHTML = "flowos isnt working right now but im making a fix soon so funny right haha bruh"
+            }
+        }
+
+        function goto_gle() {
+            const element = "https://google.com";
+            window.location.href = element;
+        }
+    </script>
+</body>
+</html>
