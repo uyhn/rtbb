@@ -1,1 +1,1 @@
-# test
+# https://kosmoslol.github.io/redirectoolbutbetter/
