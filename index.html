@@ -22,7 +22,7 @@
             min-height: 100vh;
         }
         h1 {
-            color: #c2c2c2;
+            color: #f1f1f1;
             font-size: 36px;
             font-weight: bold;
             margin-bottom: 20px;
@@ -86,6 +86,15 @@
         <button onclick="goto_prox('utopia')">Utopia</button>
         <button onclick="goto_prox('tsunami')">Tsunami</button>
         <button onclick="goto_prox('noct')">Noctura</button>
+
+        <h1>Games</h1>
+        <button onclick="goto_game('tunnel_rush')">Tunnel Rush</button>
+        <button onclick="goto_game('vex6')">Vex 6</button>
+        <button onclick="goto_game('subway')">Subway Surfers</button>
+
+
+
+
         
     </div>
 
@@ -132,6 +141,18 @@
             const element = "https://google.com";
             window.location.href = element;
         }
+
+        function goto_game(s) {
+            if (s === "tunnel_rush") {
+                const element = "https://bonbang.github.io/store6/tunnel-rush//";
+                window.location.href = element;
+            } else if (s === "vex6") {
+                const element = "https://xn--6kq63e.supermario.gq/game/vex6/index.html";
+                window.location.href = element;
+            } else if  (s === "subway") {
+                const element = "https://bonbang.github.io/subway-surfers/";
+                window.location.href = element;
+            
     </script>
 </body>
 </html>
