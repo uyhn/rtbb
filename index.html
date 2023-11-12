@@ -74,13 +74,19 @@
         <input type="url" id="inputs-1">
 
         <button onclick="goto_url()">Go to URL</button>
-        <button onclick="goto_prox('nebula')">Nebula Proxy</button>
         <button onclick="goto_gle()">Google</button>
-        <button onclick="goto_prox('holy')">Holy Unblocker</button>
-
-        <h1>Others:</h1>
-        <button onclick="goto_prox('nowgg')">now.gg</button>
+        <button onclick="goto_prox('nowgg')">Now.gg</button>
         <button onclick="goto_prox('credits')">Credits</button>
+
+        <h1>Proxies</h1>
+        <button onclick="goto_prox('nebula')">Nebula</button>
+        <button onclick="goto_prox('holy')">Holy Unblocker</button>
+        <button onclick="goto_prox('rh')">Rammerhead</button>
+        <button onclick="goto_prox('interstellar')">Interstellar</button>
+        <button onclick="goto_prox('utopia')">Utopia</button>
+        <button onclick="goto_prox('tsunami')">Tsunami</button>
+        <button onclick="goto_prox('noct')">Noctura</button>
+        
     </div>
 
     <script>
@@ -100,9 +106,24 @@
                 const element = "https://nowgg.wwrr.repl.co/";
                 window.location.href = element;
             } else if (s === "credits") {
-                document.getElementById("poop").innerHTML = "Original Redirect Tool by Kahaan https://woosh9129.github.io/redirectool"
+                document.getElementById("poop").innerHTML = "Original and Official Redirect Tool by Kahaan https://woosh9129.github.io/redirectool"
             } else if (s === "holy") {
                 const element = "https://colpsk12.org/";
+                window.location.href = element;
+            } else if (s === "rh") {
+                const element = "https://r1.shieldbotlist.xyz/";
+                window.location.href = element;
+            } else if (s === "interstellar") {
+                const element = "https://flowos.shieldbotlist.xyz/";
+                window.location.href = element;
+            } else if (s === "utopia") {
+                const element = "https://acutemath.quest/";
+                window.location.href = element;
+            } else if (s === "tsunami") {
+                const element = "https://tsunami.fognetwork.repl.co/";
+                window.location.href = element;
+            } else if (s === "noct") {
+                const element = "https://noctura.app/";
                 window.location.href = element;
             }
         }
