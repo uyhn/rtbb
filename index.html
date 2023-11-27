@@ -83,6 +83,7 @@
         <button onclick="goto_url()">Go to URL</button>
         <button onclick="goto_gle()">Google</button>
         <button onclick="goto_prox('nowgg')">now.gg</button>
+        <button onclick="goto_prox('link2')">Alt Link (doesnt update)</button>
         <button onclick="goto_prox('proxify')">Open this site under a proxy</button>
         <button onclick="goto_prox('credits')">Credits</button>
 
@@ -429,6 +430,9 @@
                 window.location.href = element;
             } else if (s === "ai") {
                 const element = "https://ub7.org/";
+                window.location.href = element;
+            } else if (s === "link2") {
+                const element = "https://rtbb.violating.me/";
                 window.location.href = element;
             }
         }
