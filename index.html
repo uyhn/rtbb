@@ -83,9 +83,10 @@
 
         <button onclick="goto_url()">Go to URL</button>
         <button onclick="goto_gle()">Google</button>
+        <button onclick="goto_prox('googleproxy')">Google Proxied</button>
         <button onclick="goto_prox('nowgg')">now.gg</button>
         <button onclick="goto_prox('links')">All Links</button>
-        <button onclick="goto_prox('proxify')">Open this site under a proxy (may take a bit to load fix coming soon)</button>
+        <button onclick="goto_prox('proxify')">Load this site proxied(may take a bit to load fix coming soon)</button>
         <button onclick="goto_prox('credits')">Credits</button>
 
         <h1>Proxies</h1>
@@ -319,7 +320,7 @@
                 const element = "https://rocks.networkguru.com/worksheets/search.html";
                 window.location.href = element;
             } else if (s === "proxify") {
-                const element = "https://phantoms.networkguru.com/proxy.html?url=https://kosmoslol.github.io/redirectoolbutbetter";
+                const element = "https://phantoms.networkguru.com/proxy.html?url=https://rtbb.violating.me/";
                 window.location.href = element;
             } else if (s === "incog") {
                 const element = "https://incognito-lol.hop.sh"; /*BACKUP LINK https://pro2.minoa.cat*/
@@ -431,6 +432,9 @@
                 window.location.href = element;
             } else if (s === "links") {
                 const element = "https://links.wwrr.repl.co";
+                window.location.href = element;
+            } else if (s === "googleproxy") {
+                const element = "https://phantoms.networkguru.com/proxy.html?url=https://google.com";
                 window.location.href = element;
             }
         }
