@@ -84,8 +84,9 @@
 
         <button onclick="goto_url()">Go to URL</button>
         <button onclick="goto_gle()">Google</button>
-        <button onclick="goto_prox('styles')">STYLES!! (BETA + WIP)</button>
         <button onclick="goto_prox('googleproxy')">Google Proxied</button>
+        <button onclick="goto_prox('styles')">STYLES!! (BETA + WIP)</button>
+        <button onclick="goto_prox('hide')">Embed Mode (doesnt show proxies/games in history</button>
         <button onclick="goto_prox('nowgg')">now.gg</button>
         <button onclick="goto_prox('links')">All Links</button>
         <button onclick="goto_prox('proxify')">Load this site proxied(may take a bit to load fix coming soon)</button>
@@ -392,7 +393,10 @@
                 const element = "https://phantoms.networkguru.com/proxy.html?url=https://google.com";
                 window.location.href = element;
             } else if (s === "styles") {
-                const element = "https://rtbb.violating.me/styles.html";
+                const element = "https://rtbb.violating.me/styles";
+                window.location.href = element;
+            } else if (s === "hide") {
+                const element = "https://rtbb.violating.me/hide";
                 window.location.href = element;
             }
         }
