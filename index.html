@@ -95,6 +95,7 @@
         <h1>Proxies</h1>
         <button onclick="goto_prox('uv')">Ultraviolet</button>
         <button onclick="goto_prox('uv2')">Ultraviolet 2 (Kahaans)</button>
+        <button onclick="goto_prox('proxy')">My Proxy (Beta)</button>
         <button onclick="goto_prox('nebula')">Nebula</button>
         <button onclick="goto_prox('holy')">Holy Unblocker</button>
         <button onclick="goto_prox('rh')">Rammerhead</button>
@@ -413,6 +414,9 @@
                 window.location.href = element;
             } else if (s === "shadow2") {
                 const element = "/prx/shadow";
+                window.location.href = element;
+            } else if (s === "proxy") {
+                const element = "https://rtbbprxy.netlify.app/static/";
                 window.location.href = element;
             }
         }
