@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirect Tool But Better</title>
+    <style>
+        body {
+            background: url('https://kosmoslol.github.io/redirectoolbutbetter/backgrounds/bg3.gif');
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            line-height: 1.5;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+        h1 {
+            color: #fff;
+            font-size: 36px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        h2 {
+            color: #fff;
+            font-size: 24px;
+            font-weight: bold;
+            margin-top: 20px;
+        }   
+        h4 {
+            color: #fff;
+            font-size: 16px;
+            font-weight: bold;
+            margin-top: 20px;
+            }
+        input[type="url"] {
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+            width: 100%;
+            max-width: 500px;
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+        button {
+            background-color: #666565;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 10px;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+        button:hover {
+            background-color: #bab8b8;
+            transform: scale(1.05);
+        }
+        button:active {
+            transform: scale(0.95);
+        }
+    </style>
+</head>
+<body>
+    <h1 id ="credits"> </h1>
+    <div class="container">
+        <h1>Redirect Tool But Better</h1>
+
+        <h2>the advanced version of Kahaans Redirect Tool</h2>
+        <h2>Currently adding big updates and fixes for semester 2</h2>
+        <h4>scroll down for games and lots of proxies</h4>
+        
+
+        <input type="url" id="inputs-1">
+
+        <button onclick="goto_url()">Go to URL</button>
+        <button onclick="goto_gle()">Google</button>
+        <button onclick="goto_prox('googleproxy')">Google Proxied</button>
+        <button onclick="goto_prox('nowgg')">now.gg</button>
+        <button onclick="goto_prox('links')">All Links</button>
+        <button onclick="goto_prox('proxify')">Load this site proxied(may take a bit to load fix coming soon)</button>
+        <button onclick="goto_prox('credits')">Credits</button>
+
+        <h1>Proxies</h1>
+        <button onclick="goto_prox('uv')">Ultraviolet</button>
+        <button onclick="goto_prox('uv2')">Ultraviolet 2 (Kahaans)</button>
+        <button onclick="goto_prox('nebula')">Nebula</button>
+        <button onclick="goto_prox('holy')">Holy Unblocker</button>
+        <button onclick="goto_prox('rhh')">Rammerhead</button>
+        <button onclick="goto_prox('interstellar2')">Interstellar</button>
+        <button onclick="goto_prox('interstellar')">Interstellar 2 (Kahaans)</button>
+        <button onclick="goto_prox('waves')">Tsunami</button>
+        <button onclick="goto_prox('incog')">Incognito</button>
+        <button onclick="goto_prox('utopia')">Utopia</button>
+        <button onclick="goto_prox('shadow')">Shadow Tabbed</button>
+        <button onclick="goto_prox('ht')">Hypertabs</button>
+        <button onclick="goto_prox('terbium')">Terbium</button>
+        <button onclick="goto_prox('metallic')">Metallic</button>
+        <button onclick="goto_prox('degeneracy')">Corrosion</button>
+        <button onclick="goto_prox('emerald')">Emerald</button>
+        <button onclick="goto_prox('art')">Art Class</button>
+        <button onclick="goto_prox('doge')">Doge Unblocker</button>
+        <button onclick="goto_prox('kazwire')">Kazwire</button>
+        <button onclick="goto_prox('alien')">Alien Hub (paid)</button>
+        <button onclick="goto_prox('pillow')">Pillow</button>
+        <button onclick="goto_prox('polaris')">Polaris</button>
+        <button onclick="goto_prox('snorlax')">Snorlaxs Cave (currently broken)</button>
+        <button onclick="goto_prox('flow')">FlowOS</button>
+        <button onclick="goto_prox('flowold')">FlowOS Old (Kahaans)</button>
+        <button onclick="goto_prox('abyss')">Abyss</button>
+        <button onclick="goto_prox('lud')">Ludicrous</button>
+        <button onclick="goto_prox('tinfoil')">Tinf0il</button>
+        <button onclick="goto_prox('static')">Ultraviolet Static</button>
+        <button onclick="goto_prox('astroid')">Astroid</button>
+        <button onclick="goto_prox('node')">Node Unblocker</button>
+        <button onclick="goto_prox('riptide')">Riptide</button>
+        <button onclick="goto_prox('ruby')">Ruby</button>
+        <button onclick="goto_prox('surf')">Surfskip</button>
+        <button onclick="goto_prox('elixir')">Elixir</button>
+        
+
+        <h1>Game Sites (most r blocked use selenite)</h1>
+        <button onclick="goto_prox('phantom')">Phantom Games</button>
+        <button onclick="goto_prox('selenite')">Selenite</button>
+        <button onclick="goto_prox('math')">Extreme Math</button>
+        <button onclick="goto_prox('3hk0')">3hk0 Games</button>
+        <button onclick="goto_prox('ehab')">Ehab Games</button>
+        <button onclick="goto_prox('radon')">Radon Games</button>
+        <button onclick="goto_prox('projecthub')">Project Hub</button>
+        <button onclick="goto_prox('movie')">Watch Movies (use on proxy)</button>
+        <button onclick="goto_prox('gd')">Geometry Dash (tons of levels)</button>
+
+        
+        <h1>Games</h1>
+        <button onclick="goto_prox('fnaf')">FNAF</button>
+        <button onclick="goto_prox('fnaf2')">FNAF 2</button>
+        <button onclick="goto_prox('fnaf3')">FNAF 3</button>
+        <button onclick="goto_prox('fnaf4')">FNAF 4</button>
+        <button onclick="goto_prox('fnaf5')">FNAF Sister Location</button>
+        <button onclick="goto_prox('tunnel_rush')">Tunnel Rush</button>
+        <button onclick="goto_prox('vex6')">Vex 6</button>
+        <button onclick="goto_prox('subway')">Subway Surfers</button>
+        <button onclick="goto_prox('slope')">Slope</button>
+        <button onclick="goto_prox('pizza')">Papas Pizzeria</button>
+        <button onclick="goto_prox('crossy_road')">Crossy Road</button>
+        <button onclick="goto_prox('totm')">Tomb Of The Mask</button>
+        <button onclick="goto_prox('shooter')">Time Shooter 3</button>
+        <button onclick="goto_prox('savemypet')">Save My Pet</button>
+        <button onclick="goto_prox('snowball')">Snowball.IO</button>
+        <button onclick="goto_prox('run3')">Run 3</button>
+        <button onclick="goto_prox('rb')">Retro Bowl</button>
+        <button onclick="goto_prox('run')">Run</button>
+        <button onclick="goto_prox('2048')">2048</button>
+        <button onclick="goto_prox('paper')">Paper IO</button>
+        <button onclick="goto_prox('bball')">Basketball Stars</button>
+        
+        
+
+
+
+
+        
+    </div>
+
+    <script>
+        function goto_url() {
+            const element = document.getElementById('inputs-1');
+            window.location.href = element.value;
+        }
+
+        function goto_prox(s) {
+            if (s === "nebula") {
+                const element = "https://worldwarii.wwrr.repl.co";
+                window.location.href = element;
+            } else if (s === "terbium") {
+                const element = "https://terbium-c7h.pages.dev/";
+                window.location.href = element;
+            } else if  (s === "nowgg") {
+                const element = "https://kosmoslol.github.io/nowgg/";
+                window.location.href = element;
+            } else if (s === "credits") {
+                document.getElementById("credits").innerHTML = "Made by emil. Original and Official Redirect Tool by Kahaan https://woosh9129.github.io/redirectool"
+            } else if (s === "holy") {
+                const element = "https://holyunbl0cker.tomahawkchurch.org/";
+                window.location.href = element;
+            } else if (s === "uv2") {
+                const element = "https://uv.shieldbotlist.xyz/";
+                window.location.href = element;
+            } else if (s === "interstellar") {
+                const element = "https://flowos.shieldbotlist.xyz/";
+                window.location.href = element;
+            } else if (s === "utopia") {
+                const element = "https://trainbrain.sbs/";
+                window.location.href = element;
+            } else if (s === "shadow") {
+                const element = "https://shadow.microtract.xyz/";
+                window.location.href = element;
+            } else if (s === "uv") {
+                const element = "https://war.microtract.xyz";
+                window.location.href = element;
+            } else if (s === "tunnel_rush") { /* GAMES START HERE */
+                const element = "https://bonbang.github.io/store6/tunnel-rush//";
+                window.location.href = element;
+            } else if (s === "phantom") {
+                const element = "https://phantoms.networkguru.com/";
+                window.location.href = element;
+            } else if (s === "vex6") {
+                const element = "https://xn--bck1dqb7b7e.letz.dev/game/vex6/index.html";
+                window.location.href = element;
+            } else if (s === "subway") {
+                const element = "https://bonbang.github.io/subway-surfers/";
+                window.location.href = element;
+            } else if (s === "slope") {
+                const element = "https://bonbang.github.io/slope/";
+                window.location.href = element;
+            } else if (s === "pizza") {
+                const element = "https://bitent.com/swf/papas_pizzeria/";
+                window.location.href = element;
+            } else if (s === "crossy_road") {
+                const element = "https://xn--bck1dqb7b7e.letz.dev/game/crossyroad/index.html";
+                window.location.href = element;
+            } else if (s === "totm") {
+                const element = "https://tombofthemask.github.io/g8/tomb-of-the-mask/";
+                window.location.href = element;
+            } else if (s === "shooter") {
+                const element = "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/sk1bx/version@0d8fb9c7430567ed0900902593eee6ba2ba8d297/ts3.xml";
+                window.location.href = element;
+            } else if (s === "savemypet") {
+                const element = "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/nurimoores/DataSources@9f54c673948151d03a62f5e63c67efaf558759ab/smp.xml";
+                window.location.href = element;
+            } else if (s === "fnaf") {
+                const element = "https://biology-textbook-education.vercel.app/fnaf/index.html";
+                window.location.href = element;
+            } else if (s === "snowball") {
+                const element = "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/gertdoro/SQLite4Unity3d@8516fc0bd1d2be662ca484f5dc506268b24763ef/Example/Assets/snowball.xml";
+                window.location.href = element;
+            } else if (s === "run") {
+                const element = "https://www.coolmathgames.com/0-run/play";
+                window.location.href = element;
+            } else if (s === "degeneracy") {
+                const element = "https://degeneracy.wwrr.repl.co/corrosion";
+                window.location.href = element;
+            } else if (s === "rb") {
+                const element = "https://xn--bck1dqb7b7e.letz.dev/game/retro-bowl/index.html";
+                window.location.href = element;
+            } else if (s === "snorlax") {
+                const element = "https://world.peace.prayerforworldpeace.com/";
+                window.location.href = element;
+            } else if (s === "metallic") {
+                const element = "https://metallic-fmzea16l.b4a.run/";
+                window.location.href = element;
+            } else if (s === "art") {
+                const element = "https://edpuzzle-lol.vercel.app/";
+                window.location.href = element;
+            } else if (s === "doge") {
+                const element = "https://cell-analogy.vercel.app/app";
+                window.location.href = element;
+            } else if (s === "emerald") {
+                const element = "https://e.microtract.xyz/";
+                window.location.href = element;
+            } else if (s === "waves") {
+                const element = "https://tsunami.wwrr.repl.co/";
+                window.location.href = element;
+            } else if (s === "kazwire") {
+                const element = "https://music.hn-mes.com/";
+                window.location.href = element;
+            } else if (s === "math") {
+                const element = "https://simple-education.xyz/";
+                window.location.href = element;
+            } else if (s === "alien") {
+                const element = "https://lowcastimports.com/?code=12345";
+                window.location.href = element;
+            } else if (s === "polaris") {
+                const element = "https://meatman.quest/";
+                window.location.href = element;
+            } else if (s === "ht") {
+                const element = "https://ht.wwrr.repl.co/";
+                window.location.href = element;
+            } else if (s === "pillow") {
+                const element = "https://worldwar2.wwrr.repl.co/";
+                window.location.href = element;
+            } else if (s === "3hk0") {
+                const element = "https://gray-sand-0ae3d2d10.2.azurestaticapps.net/";
+                window.location.href = element;
+            } else if (s === "flow") {
+                const element = "https://mathwhizz.me/";
+                window.location.href = element;
+            } else if (s === "abyss") {
+                const element = "https://abyss-nve3289u.b4a.run/";
+                window.location.href = element;
+            } else if (s === "lud") {
+                const element = "https://2peo4p.sse.codesandbox.io/";
+                window.location.href = element;
+            } else if (s === "astroid") {
+                const element = "https://rocks.networkguru.com/worksheets/search.html";
+                window.location.href = element;
+            } else if (s === "proxify") {
+                const element = "https://phantoms.networkguru.com/proxy.html?url=https://rtbb.violating.me/";
+                window.location.href = element;
+            } else if (s === "incog") {
+                const element = "https://test-86ynkgk1.b4a.run/";
+                window.location.href = element;
+            } else if (s === "tinfoil") {
+                const element = "https://rakhmatullo.gay/";
+                window.location.href = element;
+            } else if (s === "static") {
+                const element = "https://uv-static.github.io/";
+                window.location.href = element;
+            } else if (s === "node") {
+                const element = "https://cyclic.cyclic.app";
+                window.location.href = element;
+            } else if (s === "ehab") {
+                const element = "https://home.math-break.com/";
+                window.location.href = element;
+            } else if (s === "selenite") {
+                const element = "https://biology-textbook-education.vercel.app/projects.html";
+                window.location.href = element;
+            } else if (s === "projecthub") {
+                const element = "https://unb10ck.github.io/";
+                window.location.href = element;
+            } else if (s === "movie") {
+                const element = "https://flixwave.to/";
+                window.location.href = element;
+            } else if (s === "interstellar2") {
+                const element = "https://outerspace.wwrr.repl.co/";
+                window.location.href = element;
+            } else if (s === "versatile") {
+                const element = "https://broken.wwrr.repl.co";
+                window.location.href = element;
+            } else if (s === "riptide") {
+                const element = "https://riptide.quart2629.repl.co/";
+                window.location.href = element;
+            } else if (s === "ruby") {
+                const element = "https://clients.republicofgamers.net/";
+                window.location.href = element;
+            } else if (s === "surf") {
+                const element = "https://excelwizard.space/room";
+                window.location.href = element;
+            } else if (s === "gd") {
+                const element = "https://gd.wwrr.repl.co";
+                window.location.href = element;
+            } else if (s === "flowold") {
+                const element = "https://cyberproxy.shieldbotlist.xyz";
+                window.location.href = element;
+            } else if (s === "elixir") {
+                const element = "https://elixir-6.hop.sh/";
+                window.location.href = element;
+            } else if (s === "fnaf2") {
+                const element = "https://biology-textbook-education.vercel.app/fnaf2/index.html";
+                window.location.href = element;
+            } else if (s === "fnaf3") {
+                const element = "https://biology-textbook-education.vercel.app/fnaf3/index.html";
+                window.location.href = element;
+            } else if (s === "fnaf4") {
+                const element = "https://biology-textbook-education.vercel.app/fnaf4/index.html";
+                window.location.href = element;
+            } else if (s === "fnaf5") {
+                const element = "https://en.gameslol.net/data/fnaf/fnafsl.html";
+                window.location.href = element;
+            } else if (s === "radon") {
+                const element = "https://capitalstove.xyz/";
+                window.location.href = element;
+            } else if (s === "rhh") {
+                const element = "https://rh.0000004.xyz/";
+                window.location.href = element;
+            } else if (s === "run3") {
+                const element = "https://www.coolmathgames.com/0-run-3/play";
+                window.location.href = element;
+            } else if (s === "2048") {
+                const element = "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/bobydob/JSEngine@699000e1fa30c8a6cd0ed9c0d45b0f8dabedf0c9/build/2048/2048.xml";
+                window.location.href = element;
+            } else if (s === "paper") {
+                const element = "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/bobydob/JSEngine@b8b8a03997f38305098c2f2f5fe14907463cd23b/build/ppo2/ppo2.xml";
+                window.location.href = element;
+            } else if (s === "bball") {
+                const element = "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/bobydob/JSEngine@c0c9f32fd575688ff4b14309e9acf19b73f15e2a/build/bs/bs.xml";
+                window.location.href = element;
+            } else if (s === "links") {
+                const element = "https://links.wwrr.repl.co";
+                window.location.href = element;
+            } else if (s === "googleproxy") {
+                const element = "https://phantoms.networkguru.com/proxy.html?url=https://google.com";
+                window.location.href = element;
+            }
+        }
+
+        function goto_gle() {
+            const element = "https://google.com";
+            window.location.href = element;
+        }
+            
+    </script>
+</body>
+</html>
