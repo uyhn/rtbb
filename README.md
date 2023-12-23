@@ -1,4 +1,5 @@
 # the better and best version of kahaans redirectool.
+# to get to the site right now type /home after the domain to access it :)
 Link - https://rtbb.violating.me/ (main link use this)  
 Github Link - https://kosmoslol.github.io/redirectoolbutbetter/
 
