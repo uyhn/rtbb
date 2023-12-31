@@ -94,12 +94,13 @@
         <button onclick="goto_prox('mainsite')">if ur on the github.io site click this</button>
         <button onclick="goto_prox('hide')">Embed Mode (doesnt show proxies/games in history</button>
         <button onclick="goto_prox('nowgg')">now.gg</button>
-        <button onclick="goto_prox('links')">All Links</button>
-        <button onclick="goto_prox('proxify')">Load this site proxied(may take a bit to load fix coming soon)</button>
+        <button onclick="goto_prox('abc')">Launch any site about:blank</button>
+        <button onclick="goto_prox('proxify')">Load this site proxied</button>
         <button onclick="goto_prox('credits')">Credits</button>
 
         <h1>Proxies</h1>
         <h3>notice: 75% of the proxy links were made by me so please do not steal them for your own proxy links site and so they dont get blocked.</h3>
+        <h4>note: some proxies may take a second on first load so pls wait a bit when u click a button</h4>
         <button onclick="goto_prox('uv')">Ultraviolet</button>
         <button onclick="goto_prox('uv2')">Ultraviolet 2 (Kahaans)</button>
         <button onclick="goto_prox('uv3')">Ultraviolet 3</button>
@@ -448,6 +449,10 @@
             } else if (s === "uv4") {
                 const element = "https://uv-zii45zzc.b4a.run/";
                 window.location.href = element;
+            } else if (s === "abc") {
+                const element = "/aboutblank";
+                window.location.href = element;
+            }
             }
         }
 
