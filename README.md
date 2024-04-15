@@ -1,5 +1,5 @@
 # the better and best version of kahaans redirectool.
-Link - https://rtbb.violating.me/ (main link use this)  
+Link - https://rtbb.istan.to/ (main link use this)  
 Github Link - https://kosmoslol.github.io/redirectoolbutbetter/
 
 Origianl Link - https://woosh9129.github.io/redirectool/  
