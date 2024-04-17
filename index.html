@@ -87,9 +87,9 @@ f<!DOCTYPE html>
 
         <button onclick="goto_url()">Go to URL</button>
         <button onclick="goto_gle()">Google</button>
-        <button onclick="goto_prox('hide')">Embed Mode (doesnt show proxies/games in history)</button>
+        <button onclick="goto_prox('hide')">Embed Version</button>
         <button onclick="goto_prox('nowgg')">now.gg</button>
-        <button onclick="goto_prox('abc')">Launch any site about:blank</button>
+        <button onclick="goto_prox('abc')">about:blank opener</button>
         <button onclick="goto_prox('credits')">Credits</button>
 
         <h1>Proxies</h1>
@@ -115,7 +115,6 @@ f<!DOCTYPE html>
         <button onclick="goto_prox('astroid')">Astroid</button>
         <button onclick="goto_prox('node')">Node Unblocker</button>
         <button onclick="goto_prox('dm')">DM Unblocker</button>
-        <button onclick="goto_prox('shadow2')">Shadow Web</button>
         
 
         <h1>Game Sites</h1>
@@ -301,9 +300,6 @@ f<!DOCTYPE html>
                 window.location.href = element;
             } else if (s === "shuttle") {
                 const element = "https://algebra.stickyricecakes.com/";
-                window.location.href = element;
-            } else if (s === "shadow2") {
-                const element = "/prx/shadow";
                 window.location.href = element;
             } else if (s === "proxy") {
                 const element = "https://prxy.rtbb.istan.to/static/";
